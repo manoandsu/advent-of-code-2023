@@ -1,18 +1,18 @@
 package main
 
 import (
-	"adventofcode2023/day1"
+	"adventofcode2023/day2"
 	"os"
 )
 
 func main() {
-	f, err := os.Open("./day1/input.txt")
+	f, err := os.Open("./day2/input.txt")
 
 	if err != nil {
 		panic(err)
 	}
 
-	day1.Day1p1(f)
+	day2.P2(f)
 
 	defer f.Close()
 }
