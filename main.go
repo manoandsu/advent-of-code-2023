@@ -1,7 +1,7 @@
 package main
 
 import (
-	"adventofcode2023/day5"
+	"adventofcode2023/day6"
 	"os"
 )
 
@@ -12,7 +12,8 @@ func main() {
 		panic(err)
 	}
 
-	day5.P2(f)
+	// day5.P2(f)
+	day6.P1()
 
 	defer f.Close()
 }
